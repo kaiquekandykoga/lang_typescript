@@ -1,3 +1,5 @@
+# lang_typescript
+
 ## Build and run the app
 ```
 npm run build
