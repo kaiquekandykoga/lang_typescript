@@ -1,5 +1,7 @@
 # lang_typescript
 
+This is a personal repository for learning and practising TypeScript
+
 ## Build and run the app
 ```
 npm run build
