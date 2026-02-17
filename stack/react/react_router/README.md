@@ -15,3 +15,11 @@ $ npx create-react-router@latest framework_mode
 $ cd framework_mode
 $ npm run dev
 ```
+
+#### Data mode
+
+```
+$ npx create-vite@latest data_mode
+Select React
+Select TypeScript
+```
