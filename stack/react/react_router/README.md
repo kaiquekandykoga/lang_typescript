@@ -22,4 +22,5 @@ $ npm run dev
 $ npx create-vite@latest data_mode
 Select React
 Select TypeScript
+$ npm i react-router
 ```
