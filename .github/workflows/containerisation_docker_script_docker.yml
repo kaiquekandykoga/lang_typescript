@@ -1,4 +1,4 @@
-name: Docker Test
+name: (Containerisation/Docker/Script - Docker Test)
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v5
 
     - name: Build Docker image
-      run: docker build -t ci_basic_github_typescript .
+      run: docker build -t ci_basic_github_typescript containerisation/docker/script
 
     - name: Run tests in Docker
       run: docker run --rm ci_basic_github_typescript npm test

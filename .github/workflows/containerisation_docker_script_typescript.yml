@@ -1,4 +1,4 @@
-name: Test
+name: (Containerisation/Docker/Script - Test)
 
 on:
   push:
@@ -25,12 +25,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        cache-dependency-path: containerisation/docker/script/package-lock.json
 
     - name: Install dependencies
       run: npm ci
+      working-directory: containerisation/docker/script
 
     - name: Build
       run: npm run build
+      working-directory: containerisation/docker/script
 
     - name: Run tests
       run: npm test
+      working-directory: containerisation/docker/script
