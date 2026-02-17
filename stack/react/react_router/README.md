@@ -24,3 +24,12 @@ Select React
 Select TypeScript
 $ npm i react-router
 ```
+
+#### Declarative mode
+
+```
+$ npx create-vite@latest declarative_mode
+Select React
+Select TypeScript
+$ npm i react-router
+```
